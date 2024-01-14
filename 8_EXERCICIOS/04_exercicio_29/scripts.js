@@ -9,3 +9,4 @@ console.log(onibus.rodas)
 
 onibus.janelas = 20
 console.log(onibus)
+console.log(onibus.janelas)

@@ -6,31 +6,19 @@ class Endereco {
         this.estado = estado
     }
    
-    get getRua() {
-        return this.rua
-    }
-    get getBairro() {
-        return this.bairro
-    }
-    get getCidade() {
-        return this.cidade
-    }
-    get getEstado() {
-        return this.estado
-    }
+    
 
-
-    set setRua(rua) {
-        this.rua = rua
+    set setRua(setRua) {
+        this.rua = setRua
     }
-    set setBairro(bairro) {
-        this.bairro = bairro
+    set setBairro(setBairro) {
+        this.bairro = setBairro
     }
-    set setCidade(cidade) {
-        this.cidade = cidade
+    set setCidade(setCidade) {
+        this.cidade = setCidade
     }
-    set setEstado(estado) {
-        this.estado = estado
+    set setEstado(setEstado) {
+        this.estado = setEstado
     }
 }
 

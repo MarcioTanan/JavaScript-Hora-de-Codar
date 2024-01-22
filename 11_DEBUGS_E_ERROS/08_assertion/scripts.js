@@ -6,7 +6,7 @@ function iterarArray(arr) {
     throw new Error("O array precisa ter pelo menos um elemento");
   } else {
     for(let i = 0; i < arr.length; i++) {
-      console.log(i);
+      console.log(arr[i]);
     }
   }
 }
